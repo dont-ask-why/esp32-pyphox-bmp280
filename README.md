@@ -9,6 +9,8 @@ Load the phyphox file in the [phyphox editor](https://phyphox.org/editor/) and g
 Wire the sensor acording to your microcontrollers output and your sensor of choice.
 Upload the code with the Arduino IDE.
 When you start the experiment you can connect to the ESP32 and start your measurments.
+### Dependencies
+Some Adafruit libraries are necessary, as well as the Espressif ESP32 board files.
 ### Known issues
 - The App might have some trouble to read some ESP32 boards
   - Try hitting reset on the board and connecting directly after
