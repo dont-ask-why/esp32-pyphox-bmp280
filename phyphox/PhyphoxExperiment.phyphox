@@ -67,13 +67,13 @@
             </info>
             <separator editor:uuid="1466" editor:posx="0" editor:posy="0" height="1" color="404040">
             </separator>
-            <graph editor:uuid="1467" editor:posx="2319.949951171875" editor:posy="81.60000610351562" label="Temperature" aspectRatio="2.5" style="lines" lineWidth="1" color="ff7e22" partialUpdate="true" history="1" labelX="time" labelY="temperature" labelZ="" unitX="s" unitY="°C" unitZ="" logX="false" logY="false" logZ="false" xPrecision="3" yPrecision="3" zPrecision="3" scaleMinX="auto" scaleMaxX="auto" scaleMinY="auto" scaleMaxY="auto" scaleMinZ="auto" scaleMaxZ="auto" minX="0" maxX="0" minY="0" maxY="0" minZ="0" maxZ="0"  mapWidth="0"       >
+            <graph editor:uuid="1467" editor:posx="2319.949951171875" editor:posy="81.60000610351562" label="temperature" aspectRatio="2.5" style="lines" lineWidth="1" color="ff7e22" partialUpdate="true" history="1" labelX="time" labelY="temperature" labelZ="" unitX="s" unitY="°C" unitZ="" logX="false" logY="false" logZ="false" xPrecision="3" yPrecision="3" zPrecision="3" scaleMinX="auto" scaleMaxX="auto" scaleMinY="auto" scaleMaxY="auto" scaleMinZ="auto" scaleMaxZ="auto" minX="0" maxX="0" minY="0" maxY="0" minZ="0" maxZ="0"  mapWidth="0"       >
                 <input axis="x">time</input>
                 <input axis="y">temperature</input>
             </graph>
             <separator editor:uuid="1468" editor:posx="0" editor:posy="0" height="1" color="404040">
             </separator>
-            <graph editor:uuid="1469" editor:posx="2312.5999755859375" editor:posy="232.433349609375" label="Airpressure" aspectRatio="2.5" style="lines" lineWidth="1" color="ff7e22" partialUpdate="false" history="1" labelX="time" labelY="pressure" labelZ="" unitX="s" unitY="+1000 hPa" unitZ="" logX="false" logY="false" logZ="false" xPrecision="3" yPrecision="3" zPrecision="3" scaleMinX="auto" scaleMaxX="auto" scaleMinY="auto" scaleMaxY="auto" scaleMinZ="auto" scaleMaxZ="auto" minX="0" maxX="0" minY="0" maxY="0" minZ="0" maxZ="0"  mapWidth="0"       >
+            <graph editor:uuid="1469" editor:posx="2312.5999755859375" editor:posy="232.433349609375" label="airpressure" aspectRatio="2.5" style="lines" lineWidth="1" color="ff7e22" partialUpdate="false" history="1" labelX="time" labelY="pressure" labelZ="" unitX="s" unitY="+1000 hPa" unitZ="" logX="false" logY="false" logZ="false" xPrecision="3" yPrecision="3" zPrecision="3" scaleMinX="auto" scaleMaxX="auto" scaleMinY="auto" scaleMaxY="auto" scaleMinZ="auto" scaleMaxZ="auto" minX="0" maxX="0" minY="0" maxY="0" minZ="0" maxZ="0"  mapWidth="0"       >
                 <input axis="x">time</input>
                 <input axis="y">out (2)</input>
             </graph>
@@ -83,35 +83,35 @@
             </info>
             <separator editor:uuid="1471" editor:posx="0" editor:posy="0" height="1" color="404040">
             </separator>
-            <graph editor:uuid="1472" editor:posx="1951.7666015625" editor:posy="663.683349609375" label="Basic Value" aspectRatio="2.5" style="lines" lineWidth="1" color="ff7e22" partialUpdate="true" history="1" labelX="time" labelY="pressure" labelZ="" unitX="s" unitY="+1000 hPa" unitZ="" logX="false" logY="false" logZ="false" xPrecision="3" yPrecision="3" zPrecision="3" scaleMinX="auto" scaleMaxX="auto" scaleMinY="auto" scaleMaxY="auto" scaleMinZ="auto" scaleMaxZ="auto" minX="0" maxX="0" minY="0" maxY="0" minZ="0" maxZ="0"  mapWidth="0"       >
+            <graph editor:uuid="1472" editor:posx="1951.7666015625" editor:posy="663.683349609375" label="basic value" aspectRatio="2.5" style="lines" lineWidth="1" color="ff7e22" partialUpdate="true" history="1" labelX="time" labelY="pressure" labelZ="" unitX="s" unitY="+1000 hPa" unitZ="" logX="false" logY="false" logZ="false" xPrecision="3" yPrecision="3" zPrecision="3" scaleMinX="auto" scaleMaxX="auto" scaleMinY="auto" scaleMaxY="auto" scaleMinZ="auto" scaleMaxZ="auto" minX="0" maxX="0" minY="0" maxY="0" minZ="0" maxZ="0"  mapWidth="0"       >
                 <input axis="x">time</input>
                 <input axis="y">out (2)</input>
             </graph>
             <separator editor:uuid="1473" editor:posx="0" editor:posy="0" height="2" color="404040">
             </separator>
-            <info editor:uuid="1474" editor:posx="0" editor:posy="0" label="You can choose to which athmospheric pressure the graph should compare your data to. The standard pressure ist provided." >
+            <info editor:uuid="1474" editor:posx="0" editor:posy="0" label="You can choose a reference airpressure to which to calculate the difference. The standard pressure is provided." >
             </info>
-            <edit editor:uuid="1475" editor:posx="830.2666625976562" editor:posy="832.566650390625" label="Comparison Airpressure" signed="true" decimal="true"   unit="hPa" factor="1" default="1013.25">
+            <edit editor:uuid="1475" editor:posx="830.2666625976562" editor:posy="832.566650390625" label="comparison airpressure" signed="true" decimal="true"   unit="hPa" factor="1" default="1013.25">
                 <output>output</output>
             </edit>
             <separator editor:uuid="1476" editor:posx="0" editor:posy="0" height="1" color="404040">
             </separator>
-            <graph editor:uuid="1477" editor:posx="1954.4166259765625" editor:posy="813.7666625976562" label="Difference" aspectRatio="2.5" style="lines" lineWidth="1" color="ff7e22" partialUpdate="false" history="1" labelX="time" labelY="Δp" labelZ="" unitX="s" unitY="hPa" unitZ="" logX="false" logY="false" logZ="false" xPrecision="3" yPrecision="3" zPrecision="3" scaleMinX="auto" scaleMaxX="auto" scaleMinY="auto" scaleMaxY="auto" scaleMinZ="auto" scaleMaxZ="auto" minX="0" maxX="0" minY="0" maxY="0" minZ="0" maxZ="0"  mapWidth="0"       >
+            <graph editor:uuid="1477" editor:posx="1954.4166259765625" editor:posy="813.7666625976562" label="pressure-difference" aspectRatio="2.5" style="lines" lineWidth="1" color="ff7e22" partialUpdate="false" history="1" labelX="time" labelY="pressure" labelZ="" unitX="s" unitY="hPa" unitZ="" logX="false" logY="false" logZ="false" xPrecision="3" yPrecision="3" zPrecision="3" scaleMinX="auto" scaleMaxX="auto" scaleMinY="auto" scaleMaxY="auto" scaleMinZ="auto" scaleMaxZ="auto" minX="0" maxX="0" minY="0" maxY="0" minZ="0" maxZ="0"  mapWidth="0"       >
                 <input axis="x">time</input>
                 <input axis="y">out</input>
             </graph>
             <separator editor:uuid="1478" editor:posx="0" editor:posy="0" height="1" color="404040">
             </separator>
-            <value editor:uuid="1479" editor:posx="1955.816650390625" editor:posy="960.4166870117188" label="Average p" size="1" precision="2" scientific="false" unit="hPa" factor="1" >
+            <value editor:uuid="1479" editor:posx="1955.816650390625" editor:posy="960.4166870117188" label="average pressure" size="1" precision="2" scientific="false" unit="hPa" factor="1" >
                 <input>average (1)</input>
             </value>
         </view>
         <view label="Height">
-            <info editor:uuid="1480" editor:posx="0" editor:posy="0" label="Calculations on your height above sea level are provided in this view. For exact mesurments your local athmospheric pressure has to be provided. For above ground level, just measure the athmospheric pressure near the ground a use it instead of the sea level value." >
+            <info editor:uuid="1480" editor:posx="0" editor:posy="0" label="In this view calculations are based on your height above sea level. For exact measurements your local sea level atmospheric pressure has to be provided. For above ground level, just measure the athmospheric pressure near the ground a use its value instead." >
             </info>
             <separator editor:uuid="1481" editor:posx="0" editor:posy="0" height="2" color="404040">
             </separator>
-            <edit editor:uuid="1482" editor:posx="111.46665954589844" editor:posy="1394.7666015625" label="Local Sea Level Atmospheric Pressure" signed="true" decimal="true"    factor="1" default="1013.25">
+            <edit editor:uuid="1482" editor:posx="111.46665954589844" editor:posy="1394.7666015625" label="local sea level atmospheric pressure" signed="true" decimal="true"    factor="1" default="1013.25">
                 <output>output (1)</output>
             </edit>
             <separator editor:uuid="1483" editor:posx="0" editor:posy="0" height="1" color="404040">
