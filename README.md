@@ -18,3 +18,6 @@ Some Adafruit libraries are necessary, as well as the Espressif ESP32 board file
 
 ### QR Code for the Experiment
 ![Online QR code for the experiment](https://raw.githubusercontent.com/dont-ask-why/esp32-pyphox-bmp280/main/QR_Code.png)
+
+### Example of a 3D printed Enclosure
+![Mobile Sensor System](https://raw.githubusercontent.com/dont-ask-why/esp32-pyphox-bmp280/main/MobileSensorSystem.jpg)
